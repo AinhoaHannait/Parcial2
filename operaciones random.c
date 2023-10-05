@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 //programa que hace operaciones random con numeros random
@@ -7,14 +8,6 @@ int main ()
 {
 	int randomR;
 	float random1, random2, r = 0;
-	
-	srand (time(NULL));
-	
-	/*do 
-	{
-		randomR=rand()% (5 +1 -1) +1;
-		printf ("%d\n", randomR);
-	} */
 
 	while (randomR!=5)
 	{
